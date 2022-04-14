@@ -18,6 +18,8 @@ Lors du passage à Windows 11, ou durant son utilisation, vérifier que les mise
 
 Exécuter le fichier "clean_w11.bat" __en tant qu'administrateur__. Il exécutera les commandes ci-dessous.
 
+### Explication des commandes utilisés
+
 __Catégorie "Système":__
 - Mise à jour / Reset de Windows Defender ( résoud le souci d'affichage de l'outil dans les Paramètres : __à utiliser après une mise à jour de Windows 10 vers Windows 11__ )
 - Désactivation du support Linux virtuel
