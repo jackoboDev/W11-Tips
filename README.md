@@ -125,7 +125,6 @@ __Catégorie "Services" - Désactivation des services suivants:__
 - DiagTrack + dmwappushservice : Expériences des utilisateurs connectés et télémétrie
 - SCardSvr : Carte à puce	
 - SessionEnv : Configuration des services Bureau à distance
-- NgcCtnrSvc + NgcSvc : Microsoft Passport	
 - PimIndexMaintenanceSvc : Données de contacts
 - WiaRpc : Evénements d’acquisition d’images fixes
 - Télécopie : Fax
@@ -149,8 +148,6 @@ sc stop "DiagTrack" && sc config "DiagTrack" start= disabled
 sc stop "dmwappushservice" && sc config "dmwappushservice" start= disabled
 sc stop "SCardSvr" && sc config "SCardSvr" start= disabled
 sc stop "SessionEnv" && sc config "SessionEnv" start= disabled
-sc stop "NgcCtnrSvc" && sc config "NgcCtnrSvc" start= disabled
-sc stop "NgcSvc" && sc config "NgcSvc" start= disabled
 sc stop "PimIndexMaintenanceSvc" && sc config "PimIndexMaintenanceSvc" start= disabled
 sc stop "WiaRpc" && sc config "WiaRpc" start= disabled
 sc stop "Télécopie" && sc config "Télécopie" start= disabled
