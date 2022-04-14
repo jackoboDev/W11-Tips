@@ -10,11 +10,13 @@ Astuces pour améliorer l'expérience Utilisateur sous Windows 11
 
 ## ETAPE 1 : MISE A JOUR DE WINDOWS 11
 
-Lors du passage à Windows 11, ou durant son utilisation, vérifier que les mises à jour soient toutes installés sur votre ordinateur.
+Lors du passage à Windows 11, ou durant son utilisation, vérifier que les mises à jour soient toutes installés sur votre ordinateur. Si les mises à jour doivent être installés, les installer et redémarrer le PC.
 
 -----------------
 
 ## ETAPE 2 : EXECUTION DES COMMANDES SUIVANTES SOUS CMD.EXE ( ADMINISTRATEUR REQUIS )
+
+Exécuter le fichier "clean_w11.bat" __en tant qu'administrateur__. Il exécutera les commandes ci-dessous.
 
 __Catégorie "Système":__
 - Mise à jour / Reset de Windows Defender ( résoud le souci d'affichage de l'outil dans les Paramètres : __à utiliser après une mise à jour de Windows 10 vers Windows 11__ )
