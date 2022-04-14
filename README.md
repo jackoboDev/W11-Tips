@@ -23,7 +23,7 @@ __Catégorie "Système":__
 ```
 powershell -command "Get-AppxPackage Microsoft.SecHealthUI -AllUsers | Reset-AppxPackage"
 powershell -command "Disable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux"
-powershell -command "'C:\Program Files (x86)\Microsoft\Edge\Application\97.0.1072.76\Installer\setup.exe' --uninstall --force-uninstall --system-level"
+powershell -command "'C:\Program Files (x86)\Microsoft\Edge\Application\*\Installer\setup.exe' --uninstall --force-uninstall --system-level"
 ```
 
 __Catégorie "Apps":__
