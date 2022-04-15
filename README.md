@@ -16,7 +16,7 @@ Lors du passage à Windows 11, ou durant son utilisation, vérifier que les mise
 
 ## ETAPE 2 : EXECUTION DES COMMANDES SUIVANTES SOUS CMD.EXE ( ADMINISTRATEUR REQUIS )
 
-Exécuter le fichier "clean_w11.bat" __en tant qu'administrateur__. Il exécutera les commandes ci-dessous.
+Exécuter le fichier "clean_w11.bat" __en tant qu'administrateur__. Plus d'information sur les commandes dans le fichier "clean_w11.md".
 
 -----------------
 
