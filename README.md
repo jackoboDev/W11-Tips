@@ -32,19 +32,9 @@ Des applications peuvent faire paniquer l'antivirus et provoquent une surcharge 
 3. Dans Exclusions ( tout en bas ), cliquer sur "Ajouter ou supprimer des exclusions"
 4. Ajouter le programme exe concerné ( avec le mode fichier ) ou un processus ( en saisissant son nom )
 
-__Déplacer l'intégralité de votre dossier Utilisateur__
+__Commandes utiles__
 
-Afin d'éviter de surcharger le lecteur principal des données Utilisateur, nous allons créer un lien symbolique ( coucou Linux ) pour conserver les chemins actuels : Pour effectuer cela :
-1. Créer / Utiliser un autre compte administrateur
-2. Copier les données utilisateur de votre compte principal dans le lecteur de votre choix ( Exemple : Le dossier utilisateur de mon compte principal est "C:\Users\jackobo" et le lecteur désiré est "L:\". Je dois créer le dossier "L:\Users" et copier le dossier "C:\Users\jackobo" dedans )
-3. Exécuter ce type de commande pour créer le lien symbolique :
+Lien symbolique
 ```
-cd \Users\
-ren jackobo jackobo.old
-mklink /J C:\Users\jackobo E:\Users\jackobo
+mklink /J C:\Users\NOM_UTILISATEUR L:\Users\NOM_UTILISATEUR
 ```
-4. Exécuter ce type de commande pour vérifier la bonne création du lien symbolique :
-```
-dir /A:L
-```
-5. Se connecter sur la session désiré. Si tout fonctionne, supprimer les dossiers old se trouvant dans C:\Users
