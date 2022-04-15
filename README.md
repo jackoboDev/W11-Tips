@@ -37,18 +37,14 @@ __Déplacer l'intégralité de votre dossier Utilisateur__
 Afin d'éviter de surcharger le lecteur principal des données Utilisateur, nous allons créer un lien symbolique ( coucou Linux ) pour conserver les chemins actuels : Pour effectuer cela :
 1. Créer / Utiliser un autre compte administrateur
 2. Copier les données utilisateur de votre compte principal dans le lecteur de votre choix ( Exemple : Le dossier utilisateur de mon compte principal est "C:\Users\jackobo" et le lecteur désiré est "L:\". Je dois créer le dossier "L:\Users" et copier le dossier "C:\Users\jackobo" dedans )
-3. Exécuter les commandes suivantes pour copier l'intégralité des fichiers avec les liens ( cela permet d'ête sur que l'arborescence est bien créée. ). La copie s’effectue et peut durer quelques minutes selon le volume de données à transférer. Dans mon exemple, cela donnerait ceci :
-```
-xcopy C:\Users\jackobo\*.* L:\Users\jackobo /E /C /H /K /O
-```
-4. Exécuter ce type de commande pour créer le lien symbolique :
+3. Exécuter ce type de commande pour créer le lien symbolique :
 ```
 cd \Users\
 ren jackobo jackobo.old
 mklink /J C:\Users\jackobo E:\Users\jackobo
 ```
-5. Exécuter ce type de commande pour vérifier la bonne création du lien symbolique :
+4. Exécuter ce type de commande pour vérifier la bonne création du lien symbolique :
 ```
 dir /A:L
 ```
-6. Se connecter sur la session désiré. Si tout fonctionne, supprimer les dossiers old se trouvant dans C:\Users
+5. Se connecter sur la session désiré. Si tout fonctionne, supprimer les dossiers old se trouvant dans C:\Users
