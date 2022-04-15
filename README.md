@@ -32,9 +32,20 @@ Des applications peuvent faire paniquer l'antivirus et provoquent une surcharge 
 3. Dans Exclusions ( tout en bas ), cliquer sur "Ajouter ou supprimer des exclusions"
 4. Ajouter le programme exe concerné ( avec le mode fichier ) ou un processus ( en saisissant son nom )
 
-__Commandes utiles__
+__Créer un utilisateur sur un autre lecteur__
 
-Lien symbolique
+1. Créer un compte Administrateur Local et s'y connecter
+2. Noter le nom du dossier dans C:\Users concernant votre utilisateur principal
+3. Supprimer le compte utilisateur souhaité, le recréer et s'y connecter
+4. S'y déconnecter ensuite et revenir sur le compte Administrateur Local
+5. Ouvrir CMD.EXE en tant qu'administrateur et exécuter la commande suivante ( changer le nom du dossier et le lecteur souhaité (ici L:\ ) ) :
+```
+robocopy "C:\Users\NOM_UTILISATEUR" "L:\Users\NOM_UTILISATEUR" /E /COPYALL /XJ
+```
+6. Exécuter la commande suivante pour créer le lien symbolique ( changer le nom du dossier et le lecteur souhaité (ici L:\ ) ) :
 ```
 mklink /J C:\Users\NOM_UTILISATEUR L:\Users\NOM_UTILISATEUR
 ```
+7. Renommer "C:\Users\NOM_UTILISATEUR" en "C:\Users\NOM_UTILISATEUR.old"
+8. Se connecter sur votre compte utilisateur
+9. Si tout est OK, supprimer "C:\Users\NOM_UTILISATEUR.old"
