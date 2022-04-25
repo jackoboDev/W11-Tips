@@ -5,7 +5,7 @@ Astuces pour améliorer l'expérience Utilisateur sous Windows 11
 
 Testé avec les composants suivants :
 1. Processeur : Intel i5-10400F
-2. RAM : 16 GB DDR4 DIMM 2133 MHz
+2. RAM : 16 GB (2 * 8) DDR4 DIMM 2133 MHz
 3. GPU : NVIDIA GeForce GTX 1650 4096 Mo GDDR5
 4. OS : Windows 11 installé sur le disque dur SSD 512 Go
 5. Disque dur HDD de 2To en supplémentaire
