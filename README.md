@@ -1,6 +1,15 @@
 # W11-Tips
 Astuces pour améliorer l'expérience Utilisateur sous Windows 11
 
+![alt text](https://github.com/Jack0b0Tori/W11-Tips/blob/main/w11.png?raw=true)
+
+Testé avec les composants suivants :
+1. Processeur : Intel i5-10400F
+2. RAM : 16 GB DDR4 DIMM 2133 MHz
+3. GPU : NVIDIA GeForce GTX 1650 4096 Mo GDDR5
+4. OS : Windows 11 installé sur le disque dur SSD 512 Go
+5. Disque dur HDD de 2To en supplémentaire
+
 ## AVANT DE COMMENCER
 
 1. Je ne suis pas responsable des potentiels dégats matériels, logiciels et/ou physiques lors de l'utilisation de ces commandes et astuces. Vous êtes responsable de votre équipement informatique.
