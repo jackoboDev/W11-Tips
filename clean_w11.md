@@ -150,3 +150,11 @@ sc stop "spectrum" && sc config "spectrum" start= disabled
 sc stop "perceptionsimulation" && sc config "spectrum" start= disabled
 sc stop "TermService" && sc config "TermService" start= disabled
 ```
+
+__Catégorie "Sécurité" :__
+
+Protection contre la faille 0day
+```
+reg export HKEY_CLASSES_ROOT\\ms-msdt jackobo-search-ms.reg
+reg delete HKEY_CLASSES_ROOT\\ms-msdt /f
+```
