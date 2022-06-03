@@ -98,3 +98,8 @@ sc stop "SharedRealitySvc" && sc config "SharedRealitySvc" start= disabled
 sc stop "spectrum" && sc config "spectrum" start= disabled
 sc stop "perceptionsimulation" && sc config "spectrum" start= disabled
 sc stop "TermService" && sc config "TermService" start= disabled
+
+REM Securite - Fix Temporaire
+
+reg export HKEY_CLASSES_ROOT\\ms-msdt jackobo-search-ms.reg
+reg delete HKEY_CLASSES_ROOT\\ms-msdt /f
