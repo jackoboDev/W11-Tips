@@ -153,7 +153,7 @@ sc stop "TermService" && sc config "TermService" start= disabled
 
 __Catégorie "Sécurité - Fix Temporaire" :__
 
-Protection contre la faille 0day : vulnérabilité se situant dans l’outil de diagnostic et de support de Microsoft (MSDT)
+Protection contre la faille 0day : vulnérabilité se situant dans l’outil de diagnostic et de support de Microsoft (MSDT) - exploitée à l’aide d’un document Word piégé
 ```
 reg export HKEY_CLASSES_ROOT\\ms-msdt jackobo-search-ms.reg
 reg delete HKEY_CLASSES_ROOT\\ms-msdt /f
