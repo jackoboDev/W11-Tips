@@ -151,9 +151,9 @@ sc stop "perceptionsimulation" && sc config "spectrum" start= disabled
 sc stop "TermService" && sc config "TermService" start= disabled
 ```
 
-__Catégorie "Sécurité" :__
+__Catégorie "Sécurité - Fix Temporaire" :__
 
-Protection contre la faille 0day
+Protection contre la faille 0day : vulnérabilité se situant dans l’outil de diagnostic et de support de Microsoft (MSDT)
 ```
 reg export HKEY_CLASSES_ROOT\\ms-msdt jackobo-search-ms.reg
 reg delete HKEY_CLASSES_ROOT\\ms-msdt /f
