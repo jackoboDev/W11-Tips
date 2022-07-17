@@ -101,5 +101,5 @@ sc stop "TermService" && sc config "TermService" start= disabled
 
 REM Securite - Fix Temporaire
 
-reg export HKEY_CLASSES_ROOT\\ms-msdt jackobo-search-ms.reg
-reg delete HKEY_CLASSES_ROOT\\ms-msdt /f
+REM reg export HKEY_CLASSES_ROOT\\ms-msdt jackobo-search-ms.reg
+REM reg delete HKEY_CLASSES_ROOT\\ms-msdt /f
